@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 02</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- header  -->
+  <header></header>
+
+  <!-- main  -->
+  <main>
+    <button class="bag-btn" onclick="cartQuantity++; document.querySelector('#cart-summary').innerText = `Your bag has ${cartQuantity} items.`">Add to Bag</button>
+    
+    <button class="wish-btn" onclick="cartQuantity--; document.querySelector('#cart-summary').innerText = `Your bag has ${cartQuantity} items.`">Move to Wishlist</button>
+ 
+    <button class="bag-btn" onclick="cartQuantity += 2; document.querySelector('#cart-summary').innerText = `Your bag has ${cartQuantity} items.`">Add 1+1 Sale Item</button>
+
+    <h1 id="cart-summary">Your bag has 0 items.</h1>
+  </main>
+
+  <!-- footer  -->
+  <footer></footer>
+
+  <!-- javascript code  -->
+  <script src="./index.js"></script>
+  
+</body>
+</html> 
