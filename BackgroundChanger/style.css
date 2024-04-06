@@ -1,0 +1,27 @@
+body{
+    background-color: #212121;
+    position: absolute;
+    /* border: 5px solid red; */
+    height: 98%;
+    width: 98%;
+}
+
+#child {
+    position: relative;
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
+
+#start,#stop{
+    border: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
